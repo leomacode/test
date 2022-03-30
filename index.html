@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google font for Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Js -->
+    <script src="script.js"></script>
+    <title>Test</title>
+  </head>
+
+  <body>
+    <!-- header section with full height image -->
+    <header class="header"></header>
+
+    <!-- Nav bar -->
+    <div class="navbar">
+      <div class="navcontainer container flex">
+        <a href="/" class="logo uppercase">logo</a>
+
+        <div class="nav-btn"></div>
+
+        <nav class="nav">
+          <ul class="nav-group flex">
+            <li class="nav-item uppercase grid">contakt</li>
+            <li class="nav-item grid">
+              <span class="nav-burger"></span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <main>
+      <!-- Hero Text section-->
+      <div class="hero-text container">
+        <h1 class="h1-text">Lorem ipsum dolor sit amet.</h1>
+        <span class="hero-arrow grid">&darr;</span>
+      </div>
+
+      <!-- Picture section -->
+      <div class="pic-section flex">
+        <div class="pic-container">
+          <img class="pic-display" src="./assets/img-block.png" alt="" />
+        </div>
+        <div class="pic-text-container container flex">
+          <h2 class="pic-text h2-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            pulvinar venenatis nisi, quis tincidunt massa tempus suscipit. In
+            hac habitasse platea dictumst. Aenean pretium a lacus eget
+            hendrerit.
+          </h2>
+        </div>
+      </div>
+
+      <!-- Complex section -->
+      <div class="complex grid">
+        <div class="complex-text-btn container">
+          <div class="text-btn-container">
+            <div class="text-btn-container-inner">
+              <p class="complex-text body-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                pulvinar venenatis nisi, quis tincidunt massa tempus suscipit.
+                In hac habitasse platea dictumst. Aenean pretium a lacus eget
+                hendrerit.
+              </p>
+
+              <button href="/" class="complex-btn uppercase">
+                <span class="btn-text">link</span>
+                <span class="btn-arrow">&#8594;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="complex-uneven-pics flex">
+          <img
+            src="./assets/img-display-left.jpg"
+            alt="display-left"
+            class="complex-display-left"
+          />
+          <img
+            src="./assets/img-display-right.png"
+            alt="display-right"
+            class="complex-display-right"
+          />
+        </div>
+
+        <div class="complex-header-text container uppercase header-text">
+          <p class="header-text-content-up block">header</p>
+          <p class="header-text-content-down block">header</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
